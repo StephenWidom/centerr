@@ -22,7 +22,8 @@
 			});
 		} else { // If we ARE mobile...
 			this.css({
-				visibility:'visible'
+				visibility:'visible',
+				display:'block' // Make sure we're still rendering target element
 			});
 		}
 		return this;
