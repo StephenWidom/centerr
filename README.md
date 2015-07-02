@@ -1,15 +1,19 @@
-# CENTERR
-*By Stephen Widom*
-## Absolutely center an element within its parent
+## CENTERR
+A simple jQuery plugin to absolutely horizontally and vertically center an element within its parent
 
-### USE:
-> $(window).on("load resize",function(){
->   $('#targetElement').centerr();
-> });
+## USE:
+```js
+$(window).on("load resize",function(){
+	$('#targetElement').centerr();
+});
+```
 
-### OPTIONS:
-> mobile:   767 // The browser width below which centerr doesn't center
+## OPTIONS:
+### mobile:   767
+The browser width below which centerr won't adjust the target element
 
-### Notes:
+## NOTES:
 - You should add "display:none;" to the target element to avoid having it render before properly positioned.
 - Make sure your target element's parent is relatively positioned.
+
+*Developed by Stephen Widom - http://stephenwidom.com*
