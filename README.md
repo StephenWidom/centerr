@@ -12,6 +12,9 @@ $(window).on("load resize",function(){
 ### mobile:   767
 The browser width below which centerr won't adjust the target element
 
+### fullWidth:  false
+If true, don't set a value for `left` or `margin-left`
+
 ## NOTES:
 - You should add "display:none;" to the target element to avoid having it render before properly positioned.
 - Make sure your target element's parent is relatively positioned.
